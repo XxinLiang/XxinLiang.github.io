@@ -1,0 +1,63 @@
+# Site settings
+title: 执剑而行
+header-img: "img/zhihu.jpg"
+tagline: "cn"  
+description: "张鑫亮|执剑的市侩之徒"  
+baseurl: ""
+url: "http://xxthink"  
+
+# About/contact
+owner: 
+  name: " Xx"
+  email: alanxxry@vip.qq.com
+  bio: "偏要仗剑江湖，一口酒，一身红。"
+
+# Data
+gavatar: img/xx.JPG
+favicon: img/xx.JPG
+
+douban_username:  .
+twitter_username: .
+github_username: XxinLiang
+facebook_username: .
+weibo_username: .
+zhihu_username: .
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/PingLiang
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Xx"
+      header-img: "img/zhihu.jpg" # We don't want posts without a header image, that whould mean white on white
+
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : Xx
+  disqus :
+      short_name : Xx
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: 
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation

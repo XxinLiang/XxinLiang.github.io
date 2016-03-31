@@ -1,0 +1,50 @@
+body{
+	width: 100%;
+	min-width: 320px;
+	font-size: 10px;
+}
+header,.maincolor,.txt,#uselect{
+	width: 94%;
+	overflow: hidden;
+	margin: 30px auto 0;
+}
+header div{
+	font-size: 1.5rem;
+	float: left;
+}
+.time{
+	width: 60%;
+}
+.complete{
+	width: 40%;
+	text-align: right;
+}
+.maincolor div{
+	width: 40%;
+	font-size: 7rem;
+	text-align: center;
+	margin: 50px auto 0;
+}
+.txt p {
+	width: 70%;
+	margin: 20px auto;
+	font-size: 1.2rem;
+}
+#uselect div{
+	width: 20%;
+	text-align: center;
+	float: left;
+	font-size: 3.5rem;
+}
+@media screen and (min-width: 375px){
+	body{
+		font-size: 15px;
+	}
+	.maincolor,.txt,#uselect{
+		margin-top: 50px;
+	}
+	.txt p{
+		width: 80%;
+		font-size: 1.4rem;
+	}
+}
